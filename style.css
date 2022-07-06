@@ -1,11 +1,13 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-body{
+
+body {
   font-family: 'Charis SIL', serif;
-font-family: 'Joan', serif;
-font-family: 'Poppins', sans-serif;
+  font-family: 'Joan', serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .header {
@@ -16,12 +18,12 @@ font-family: 'Poppins', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 50px ;
-  
+  margin-bottom: 50px;
+
 }
 
 .header-title {
-font-size: 15px;
+  font-size: 15px;
   text-align: center;
   flex-direction: column;
   color: white;
@@ -33,75 +35,149 @@ h1 {
   padding-bottom: 10px;
   color: ;
 }
-.header-button{
+h2{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.h2-1 {
+  font-size: 40px;
+  font-weight: bold;
+  
+}
+
+.header-button {
   text-decoration: none;
-border-radius: 7px;
+  border-radius: 7px;
   background-color: rgb(255, 72, 0);
   color: white;
   font-weight: bold;
   padding: 10px 10px;
   margin-top: 10px;
 }
-.second-section{
+
+.second-section {
   width: 70%;
   height: fit-content;
   text-align: center;
   align-items: center;
   margin: 0 auto;
 }
-.box-container{
+
+.box-container {
   display: flex;
   margin: 10px;
 }
-.box{
+
+.box {
   width: 20%;
-  height: 100px;
+  height: 130px;
   margin: 20px;
+  padding: 20px;
   box-sizing: border-box;
-  background-color: rgb(255, 250, 250);
+  border-radius: 5px;
+  background-color: rgb(250, 243, 243);
   display: flex;
   align-items: center;
   justify-content: center;
- font-weight: bold;
- font-size: 20px;
+  font-weight: bold;
+  font-size: 20px;
 }
-
-.box :hover{
-
+.box2{
+  background-color:rgb(248, 230, 229) ;
+  border: 3px solid rgb(255, 72, 0) ;
+  color: rgb(255, 72, 0);
+  
 }
-.third-section{
-  width: 70%;
+.box :hover {}
+
+.third-section {
+  width: 100%;
   text-align: center;
   align-items: center;
   margin: 0 auto;
 }
-.main-div{
-  width: 100%;
+
+.main-div {
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px;
+  margin: 0 auto;
+  padding: 20;
 
 }
-#div1{
- background-color: lightgreen;
- color: black;
- text-align: left;
- padding: 15px;
- margin: 10px;
- border-radius: 5px;
+
+#div1 {
+  background-color: lightgreen;
+  color: black;
+  text-align: left;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
 }
-#div2{
+
+#div2 {
   background-color: lightgrey;
- color: black;
- text-align: left;
- padding: 15px;
- margin: 10px;
+  color: black;
+  text-align: left;
+  padding: 15px;
+  margin: 10px;
 }
-#div3{
+
+#div3 {
   background-color: lightpink;
- color: black;
- text-align: left;
- padding: 15px;
- margin: 10px;
+  color: black;
+  text-align: left;
+  padding: 15px;
+  margin: 10px;
+}
+
+.last-section {
+  width: 70%;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.last-div {
+  width: 80%;
+  height: 150px;
+  background-color: rgb(243, 231, 203);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.last-div input {
+  width: 50%;
+  font-size: 18px;
+  border: none;
+  padding: 15px 20px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.last-div button {
+  font-size: 16px;
+  background-color: orangered;
+  border: none;
+
+  color: white;
+  padding: 15px 20px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 5px 5px;
 }
