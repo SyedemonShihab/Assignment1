@@ -65,6 +65,43 @@ border-radius: 7px;
  font-weight: bold;
  font-size: 20px;
 }
-#number{
 
+.box :hover{
+
+}
+.third-section{
+  width: 70%;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.main-div{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+
+}
+#div1{
+ background-color: lightgreen;
+ color: black;
+ text-align: left;
+ padding: 15px;
+ margin: 10px;
+ border-radius: 5px;
+}
+#div2{
+  background-color: lightgrey;
+ color: black;
+ text-align: left;
+ padding: 15px;
+ margin: 10px;
+}
+#div3{
+  background-color: lightpink;
+ color: black;
+ text-align: left;
+ padding: 15px;
+ margin: 10px;
 }
